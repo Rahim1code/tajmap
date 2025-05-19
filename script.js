@@ -121,8 +121,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
-// Check if the map is loaded
-
 
 
 
@@ -199,3 +197,4 @@ function showSuggestions() {
     suggestions.appendChild(div);
   });
 }
+// Test number 2
