@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Dushanbe International Airport",
+    "type": "Airport",
+    "description": "Main international airport of Tajikistan, serving domestic and international flights.",
+    "lat": 38.5433,
+    "lon": 68.8240,
+    "address": "Ismoili Somoni Ave, Dushanbe",
+    "contact": "+992 372 227777",
+    "website": "http://dushanbeairport.tj"
+  },
+  {
+    "name": "National Museum of Tajikistan",
+    "type": "Museum",
+    "description": "A large modern museum showcasing the cultural heritage of Tajikistan.",
+    "lat": 38.5744,
+    "lon": 68.7933,
+    "address": "Ismoili Somoni Ave 47, Dushanbe",
+    "contact": "+992 372 221946",
+    "website": "http://nationalmuseum.tj"
+  },
+  {
+    "name": "Haji Yakoub Mosque",
+    "type": "Mosque",
+    "description": "One of the most important mosques in Dushanbe.",
+    "lat": 38.5705,
+    "lon": 68.7878,
+    "address": "Ismoili Somoni Ave, Dushanbe",
+    "contact": "N/A",
+    "website": "N/A"
+  },
+  {
+    "name": "Rudaki Park",
+    "type": "Park",
+    "description": "Central green park in Dushanbe with fountains and monuments.",
+    "lat": 38.5646,
+    "lon": 68.7884,
+    "address": "Rudaki Ave, Dushanbe",
+    "contact": "N/A",
+    "website": "N/A"
+  },
+  {
+    "name": "Dushanbe Plaza",
+    "type": "Business Center",
+    "description": "One of the tallest buildings in Dushanbe used for business and government.",
+    "lat": 38.5732,
+    "lon": 68.7919,
+    "address": "Rudaki Ave, Dushanbe",
+    "contact": "+992 372 234567",
+    "website": "N/A"
+  },
+  {
+    "name": "Mehrgon Market",
+    "type": "Market",
+    "description": "Modern wholesale and retail market.",
+    "lat": 38.5801,
+    "lon": 68.7775,
+    "address": "Mehrgon, Dushanbe",
+    "contact": "+992 372 111111",
+    "website": "N/A"
+  },
+  {
+    "name": "Hyatt Regency Dushanbe",
+    "type": "Hotel",
+    "description": "5-star international hotel located near Lake Komsomol.",
+    "lat": 38.5828,
+    "lon": 68.7899,
+    "address": "26/1 Ismoili Somoni Ave, Dushanbe",
+    "contact": "+992 48 7021234",
+    "website": "https://www.hyatt.com/en-US/hotel/tajikistan/hyatt-regency-dushanbe"
+  },
+  {
+    "name": "Victory Park (Parki Piruzi)",
+    "type": "Park",
+    "description": "Hilltop park offering panoramic views of Dushanbe.",
+    "lat": 38.5895,
+    "lon": 68.8495,
+    "address": "Victory Park, Dushanbe",
+    "contact": "N/A",
+    "website": "N/A"
+  },
+  {
+    "name": "Tajik State Medical University",
+    "type": "University",
+    "description": "Main medical university in Tajikistan.",
+    "lat": 38.5762,
+    "lon": 68.7935,
+    "address": "Aini Street 39, Dushanbe",
+    "contact": "+992 372 236468",
+    "website": "https://tsmu.tj"
+  },
+  {
+    "name": "Central Railway Station (Vokzal)",
+    "type": "Transport",
+    "description": "Main train station of Dushanbe.",
+    "lat": 38.5686,
+    "lon": 68.8177,
+    "address": "Railway Sq, Dushanbe",
+    "contact": "+992 372 276666",
+    "website": "N/A"
+  }
+]

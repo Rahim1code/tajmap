@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+header {
+    background: #0077cc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+.lang-select {
+    background: white;
+    color: #0077cc;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #e5f1fb;
+}
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+.feature {
+    flex: 1 1 250px;
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.map-section {
+    text-align: center;
+    padding: 2rem;
+}
+iframe {
+    width: 90%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+}
+footer {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

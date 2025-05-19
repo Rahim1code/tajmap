@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tajikistan Map Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <header>
+        <div><strong>TajMap</strong></div>
+        <select class="lang-select" onchange="changeLang(this.value)">
+            <option value="en">English</option>
+            <option value="tj">Тоҷикӣ</option>
+            <option value="ru">Русский</option>
+        </select>
+    </header>
+
+    <section class="hero" id="about">
+        <h1 id="hero-title">National Navigation for Tajikistan</h1>
+        <p id="hero-desc">Quick access to mosques, shops, hospitals, and transport.</p>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature">
+            <h3 id="feat1-title">🕌 Mosques</h3>
+            <p id="feat1-desc">Find nearby prayer places easily.</p>
+        </div>
+        <div class="feature">
+            <h3 id="feat2-title">🛍️ Shops</h3>
+            <p id="feat2-desc">Halal stores, supermarkets, and more.</p>
+        </div>
+        <div class="feature">
+            <h3 id="feat3-title">🚌 Transport</h3>
+            <p id="feat3-desc">Plan your route using public transportation.</p>
+        </div>
+    </section>
+
+    <section class="map-section" id="map-section">
+        <h2>Demo Map</h2>
+        <div id="map" style="width: 90%; height: 450px; margin: 0 auto; border-radius: 10px;"></div>
+    </section>
+
+    <div style="text-align: center; margin: 1rem; position: relative;">
+  <input type="text" id="searchBox" placeholder="Search for a place..." 
+         oninput="showSuggestions()" autocomplete="off"
+         style="padding: 8px; width: 250px; border-radius: 5px; border: 1px solid #ccc;"/>
+  <div id="suggestions" 
+       style="position: absolute; top: 40px; left: 50%; transform: translateX(-50%);
+              background: white; border: 1px solid #ccc; width: 250px;
+              max-height: 200px; overflow-y: auto; z-index: 1000;">
+  </div>
+</div>
+
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Your custom JS -->
+    <script src="script.js"></script>
+
+    <footer>
+        <p>About Us</p>
+        <nav>
+            <a href="#about">About / Дар бораи мо / О нас</a>
+            <a href="#features">Features</a>
+            <a href="#map-section">Map</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
